@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './components/redux/store';
-import ReduxComponent from './components/redux/reduxComponent';
+import store from './components/store/Store/store';
+import ReduxComponent from './components/reduxComponent';
 
 const App = () => {
   return (
